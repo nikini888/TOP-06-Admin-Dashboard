@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <sidebar class="sidebar">
+            <div class="branding">
+                <img src="./img/icon/dashboard.png" alt="" class="branding-logoImg">
+                <p class="branding-logoText">Dashboard</p>
+            </div>
+            <nav class="navigation">
+                <ul class="sidebarNav-items mainNav">
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1 ">home</span>
+                            </i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    account_circle
+                                </span>
+                            </i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    mode_comment
+                                </span>
+                            </i>
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    history
+                                </span>
+                            </i>
+                            <span>History</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    task
+                                </span>
+                            </i>
+                            <span>Tasks</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    groups
+                                </span>
+                            </i>
+                            <span>Communities</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidebarNav-items expanseNav">
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    settings
+                                </span>
+                            </i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    help_center
+                                </span>
+                            </i>
+                            <span>Support</span>
+                        </a>
+                    </li>
+                    <li class="sidebarNav-item">
+                        <a href="#" class="sidebarNav-link">
+                            <i class="sidebarNav-icon">
+                                <span class="material-icons f1">
+                                    verified_user
+                                </span>
+                            </i>
+                            <span>Privacy</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </sidebar>
+        <header class="header">
+            <form action="#" class="search">
+                <button type="submit" class="btn-search"><span class="material-icons-outlined">
+                        search
+                    </span></button>
+                <input type="text" class="searchInput">
+            </form>
+            <div class="miniheader">
+                <div class="newAnnoun">
+                    <span class="material-icons-outlined">
+                        notifications_active
+                    </span>
+                </div>
+                <img src="./img/avatar/success.png" alt="avatar" class="miniheader-avatar">
+                <p class="miniheader-name">Morgan Oakley</p>
+            </div>
+            <div class="userinfo">
+                <img src="./img/avatar/success.png" alt="avatar" class="userinfo-avatar">
+                <p class="userinfo-say">Hi there,</p>
+                <p class="userinfo-name">Morgan Oakley (<span class="userinfo-nameAcount">&commat;morgan</span>)</p>
+            </div>
+            <div class="action">
+                <a href="#" class="action-new">New</a>
+                <a href="#" class="action-upload">Upload</a>
+                <a href="#" class="action-share">Share</a>
+            </div>
+        </header>
+        <article class="mainContent">
+            <div class="projects">
+                <h3>Your Projects</h3>
+                <div class="cards">
+                    <div class="card">
+                        <h4 class="card-title">Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Less Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Impossible App</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Easy Peasy App</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Ad Blocker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Money Maker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Money Maker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Money Maker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Money Maker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-title">Money Maker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <div class="cardAction">
+                            <a href="#" class="cardAction-like"><img src="./img/icon/star-plus-outline.svg" alt=""
+                                    class="cardAction-icon like"></a>
+                            <a href="#" class="cardAction-save"><img src="./img/icon/eye-plus-outline.svg" alt=""
+                                    class="cardAction-icon save"></a>
+                            <a href="#" class="cardAction-share"><img src="./img/icon/share-variant-outline.svg" alt=""
+                                    class="cardAction-icon share"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <sidebar class="sidebarRight">
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <div class="announs">
+                        <div class="announcements-announ">
+                            <h5 class="announ-title">Site Maintenance</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga optio quasi id saepe ipsa
+                                aspernatur..</p>
+                        </div>
+                        <div class="announcements-announ">
+                            <h5 class="announ-title">Community Share Day</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga optio quasi id saepe ipsa
+                                aspernatur..</p>
+                        </div>
+                        <div class="announcements-announ">
+                            <h5 class="announ-title">Updated Privacy Policy</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga optio quasi id saepe ipsa
+                                aspernatur..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h3>Trending</h3>
+                    <div class="accounts">
+                        <div class="trendingAccount">
+                            <img src="./img/avatar/rabbit.png" alt="avatar" class="trendingAccount-avatar">
+                            <p class="trendingAccount-link">&commat;mit</p>
+                            <p class="trendingAccount-decription">Wold Peace Builder</p>
+                        </div>
+                        <div class="trendingAccount">
+                            <img src="./img/avatar/sun.png" alt="avatar" class="trendingAccount-avatar">
+                            <p class="trendingAccount-link">&commat;nha</p>
+                            <p class="trendingAccount-name">Super Cool Project</p>
+                        </div>
+                        <div class="trendingAccount">
+                            <img src="./img/avatar/superhero.png" alt="avatar" class="trendingAccount-avatar">
+                            <p class="trendingAccount-link">&commat;sam</p>
+                            <p class="trendingAccount-name">Life Changing App</p>
+                        </div>
+                        <div class="trendingAccount">
+                            <img src="./img/avatar/success.png" alt="avatar" class="trendingAccount-avatar">
+                            <p class="trendingAccount-link">&commat;tuyen</p>
+                            <p class="trendingAccount-name">No Traffic Maker</p>
+                        </div>
+                    </div>
+                </div>
+            </sidebar>
+        </article>
+    </div>
+</body>
+
+</html>
